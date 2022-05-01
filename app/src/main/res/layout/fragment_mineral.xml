@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MineralFragment">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/textMinTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minerals"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="12dp"
+            />
+
+        <TextView
+        android:id="@+id/magText"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Magnesium"
+        android:layout_below="@+id/textMinTitle"/>
+
+    <ProgressBar
+        android:id="@+id/progressBarMag"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/magText"/>
+
+    <TextView
+        android:id="@+id/calText"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Calcium"
+        android:layout_below="@+id/progressBarMag"/>
+
+    <ProgressBar
+        android:id="@+id/progressBarCal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calText"/>
+
+    <TextView
+        android:id="@+id/potText"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Potassium"
+        android:layout_below="@+id/progressBarCal"/>
+
+    <ProgressBar
+        android:id="@+id/progressBarPot"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/potText"/>
+
+    <TextView
+        android:id="@+id/phoText"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Phosphorous"
+        android:layout_below="@+id/progressBarPot"/>
+
+    <ProgressBar
+        android:id="@+id/progressBarPho"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoText"/>
+
+    <TextView
+        android:id="@+id/sulText"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Sulfur"
+        android:layout_below="@+id/progressBarPho"/>
+
+    <ProgressBar
+        android:id="@+id/progressBarSul"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sulText"/>
+
+    <TextView
+        android:id="@+id/sodText"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Sodium"
+        android:layout_below="@+id/progressBarSul"/>
+
+    <ProgressBar
+        android:id="@+id/progressBarSod"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sodText"/>
+
+    </RelativeLayout>
+</FrameLayout>

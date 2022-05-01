@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Paleo</string>
+
+    <!-- Button Names -->
+    <string name="btn_restart">Restart</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_mineral">Minerals</string>
+    <string name="btn_vitamin">Vitamins</string>
+    <string name="btn_water">Water</string>
+    <string name="btn_protein">Proteins</string>
+    <string name="btn_carbs">Carbohydrates</string>
+    <string name="btn_fats">Fats</string>
+    <!-- Types of Food -->
+    <string-array name="Foods">
+        <item>Ground Beef</item>
+        <item>Salmon</item>
+        <item>Chicken Eggs</item>
+        <item>Grass Feed Yogurt</item>
+        <item>Ribeye Steak</item>
+        <item>kefir</item>
+        <item>Copper</item>
+        <item>Sulfur</item>
+        <item>Cobalt</item>
+        <item>Nickel</item>
+        <item>Iron</item>
+        <item>Zinc</item>
+        <item>Manganese</item>
+        <item>Molybdenum</item>
+    </string-array>
+
+    <!-- Types of amino acids (proteins) -->
+    <string name="txt_alanine">Alanine</string>
+    <string name="txt_arginine">Arginine</string>
+    <string name="txt_asparagine">Asparagine</string>
+    <string name="txt_aspartic_acid">Aspartic Acid</string>
+    <string name="txt_cysteine">Cysteine</string>
+    <string name="txt_glutamic_acid">Glutamic Acid</string>
+    <string name="txt_glutamine">glutamine</string>
+    <string name="txt_glycine">Glycine</string>
+    <string name="txt_hustidine">Hustidine</string>
+    <string name="txt_isoleucine">Isoleucine</string>
+    <string name="txt_leucine">Leucine</string>
+    <string name="txt_lysine">Lysine</string>
+    <string name="txt_methionine">Methionine</string>
+    <string name="txt_phenylalanine">Phenylalanine</string>
+    <string name="txt_proline">Proline</string>
+    <string name="txt_serine">Serine</string>
+    <string name="txt_threonine">Threonine</string>
+    <string name="txt_tryptoprian">Tryptoprian</string>
+    <string name="txt_tryosine">Tryosine</string>
+    <string name="valine">Valine</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

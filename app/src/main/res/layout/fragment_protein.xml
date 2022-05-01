@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MineralFragment">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/textProteinTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Protein"
+            android:textSize="35sp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="12dp"
+            />
+
+        <TextView
+            android:id="@+id/BCAAText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textProteinTitle"
+            android:text="Branched Chain Amino Acids"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/isoleucineText"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Isoleucine"
+            android:layout_below="@+id/BCAAText"/>
+
+        <ProgressBar
+            android:id="@+id/progressBarIsoleucine"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/isoleucineText"/>
+
+        <TextView
+            android:id="@+id/leucineText"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Leucine"
+            android:layout_below="@+id/progressBarIsoleucine"/>
+
+        <ProgressBar
+            android:id="@+id/progressBarLeucine"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/leucineText"/>
+
+        <TextView
+            android:id="@+id/valineText"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Potassium"
+            android:layout_below="@+id/progressBarLeucine"/>
+
+        <ProgressBar
+            android:id="@+id/progressBarPot"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/valineText"/>
+
+        <TextView
+            android:id="@+id/phoText"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Phosphorous"
+            android:layout_below="@+id/progressBarPot"/>
+
+        <ProgressBar
+            android:id="@+id/progressBarPho"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phoText"/>
+
+        <TextView
+            android:id="@+id/sulText"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Sulfur"
+            android:layout_below="@+id/progressBarPho"/>
+
+        <ProgressBar
+            android:id="@+id/progressBarSul"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sulText"/>
+
+        <TextView
+            android:id="@+id/sodText"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Sodium"
+            android:layout_below="@+id/progressBarSul"/>
+
+        <ProgressBar
+            android:id="@+id/progressBarSod"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sodText"/>
+
+    </RelativeLayout>
+</FrameLayout>
